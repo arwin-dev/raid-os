@@ -6,4 +6,4 @@ clean:
 	$(RM) raid
 
 run:
-	./raid < input.txt
+	./raid
