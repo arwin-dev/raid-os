@@ -40,13 +40,11 @@ Test Case Restrictions
 
 Building and Running
 ---------------------
-1. Compile the program using a C compiler (e.g., gcc):
+1. Compile the program:
     ```
-    gcc -o raid_mapping raid_mapping.c
+    make
     ```
 2. Run the compiled program:
     ```
-    ./raid_mapping < input.txt > output.txt
+    make run
     ```
-   Replace `input.txt` with the path to your input file and `output.txt` with the desired output file.
-
