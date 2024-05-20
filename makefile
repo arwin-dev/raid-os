@@ -1,9 +1,9 @@
 
-restoraid: restoraid.c
-	$(CC) -o restoraid restoraid.c
+raid: raid.c
+	$(CC) -o raid raid.c
 
 clean:
-	$(RM) restoraid
+	$(RM) raid
 
 run:
-	./restoraid < input.txt
+	./raid
