@@ -1,5 +1,3 @@
-README
-======
 
 RAID Mapping Program
 ====================
